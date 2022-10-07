@@ -22,17 +22,18 @@ namespace Bubble_Sort
                     break;
                 else
                     Console.WriteLine("\nArray dapat mempunyai maksimal 20 elemen.\n");
-                Console.WriteLine("");
-                Console.WriteLine("-----------------------");
-                Console.WriteLine(" Masukkan elemen array ");
-                Console.WriteLine("-----------------------");
+            }
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------");
+            Console.WriteLine(" Masukkan elemen array ");
+            Console.WriteLine("-----------------------");
 
-                // Pengguna memasukkan elemen pada array
-                for (int i = 0; i < n; i++) {
-                    Console.Write("<" + (i + 1) + "> ");
-                    string s1 = Console.ReadLine();
-                    a[1] = Int32.Parse(s1);
-                }
+            // Pengguna memasukkan elemen pada array
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("<" + (i + 1) + "> ");
+                string s1 = Console.ReadLine();
+                a[1] = Int32.Parse(s1);
             }
         }
 
@@ -49,5 +50,7 @@ namespace Bubble_Sort
             }
             Console.WriteLine("");
         }
+
+        
     }
 }
